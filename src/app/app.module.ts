@@ -3,11 +3,15 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { PercusionComponent } from './percusion/percusion.component';
+import { PadComponent } from './pad/pad.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PercusionComponent,
+    PadComponent
   ],
   imports: [
     BrowserModule
